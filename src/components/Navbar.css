@@ -1,0 +1,96 @@
+/* .navbar {
+  background-color: #333;
+  color: white;
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1500px;
+  margin: 0 auto;
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+} */
+
+/* Navbar.css */
+/* Navbar styling */
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 30px 40px; /* Adds padding for spacing */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1800px; /* Navbar spans the entire width of the screen */
+  box-sizing: border-box; /* Ensures padding is included in the total width */
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 2.4rem; /* Adjusted font size */
+}
+
+.navbar-links {
+  display: flex;
+  gap: 70px; /* Adds space between the links */
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.9rem; /* Adjusted for better readability */
+  transition: color 0.3s ease; /* Smooth hover transition */
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+  color: #646cff; /* Changed hover color for better visibility */
+}
+.logout-btn {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  text-decoration: underline;
+  color: #646cff;
+}
+
+/* Mobile responsive styles */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 15px 20px; /* Reduced padding for mobile */
+  }
+
+  .navbar h1 {
+    font-size: 1.6rem; /* Adjusted heading size */
+  }
+
+  .navbar-links {
+    gap: 15px; /* Reduced space between links on mobile */
+  }
+
+  .navbar-links a {
+    font-size: 1rem; /* Adjusted font size for mobile */
+  }
+}
